@@ -13,5 +13,10 @@ namespace cmp2007_project
         {
 
         }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            txtFullname.Text = txtFirstname.Text + " " + txtLastname.Text;
+        }
     }
 }
